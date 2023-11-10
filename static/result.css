@@ -1,7 +1,7 @@
 body {
   background-color: #f8fafd;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 .mainbar {
@@ -70,6 +70,11 @@ a:active {
   background-color: #8298ba; /* 어두운 파란색 */
   color: #062e6f; /* 버튼 텍스트 색상 변경 */
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.main {
+  margin-left: 10%;
+  width:80%;
 }
 
 .content {
