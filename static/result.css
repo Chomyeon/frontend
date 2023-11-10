@@ -16,16 +16,23 @@ body {
 #name {
   font-weight: bold;
   font-size: 25px;
-  /* #name에 대한 추가적인 스타일을 지정할 수 있습니다. */
+  margin-left: 30px;
 }
 
 #Chatting,
 #About,
-#Contract {
+#Contact {
+  height: 55px;
   border: none;
-  background: none;
+  background-color: #f8fafd;
   font-size: 16px;
-  margin-right: 20px;
+  margin-right: 24px;
+}
+
+.buttons button:hover {
+  background-color: black; /* 안됨...*/
+  color: #007bff; /* 버튼 텍스트 색상 변경 */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* #logOut에 대한 추가적인 스타일을 지정할 수 있습니다. */
@@ -37,6 +44,14 @@ body {
   border: none;
   width: 100px;
   height: 55px;
+  margin-right: 30px;
+  border-radius: 4px;
+}
+
+#logOut:hover {
+  background-color: #8298ba; /* 어두운 파란색 */
+  color: #062e6f; /* 버튼 텍스트 색상 변경 */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .content {
