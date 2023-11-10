@@ -19,6 +19,15 @@ body {
   margin-left: 30px;
 }
 
+a:link {
+  text-decoration-line: none;
+}
+
+a:visited,
+a:active {
+  color: black;
+}
+
 #Chatting,
 #About,
 #Contact {
@@ -89,7 +98,7 @@ video {
   padding: 10px;
   font-size: 16px;
   outline: none;
-  width:50%;
+  width:80%;
 }
 
 #send {

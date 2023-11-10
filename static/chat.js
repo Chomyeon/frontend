@@ -68,11 +68,3 @@ function handleKeyDown(event) {
 
 // 초기 실행
 displayDummyData();
-
-function moveToNextPage() {
-  // 여기에 이동할 페이지의 URL을 입력하세요.
-  var nextPageUrl = "다음페이지의URL.html";
-
-  // 페이지 이동
-  window.location.href = nextPageUrl;
-}
